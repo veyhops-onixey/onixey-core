@@ -1,0 +1,224 @@
+# ONIXEY
+
+Most animation tools help create motion.
+
+**Onixey aims to help understand motion.**
+
+The long-term vision is simple:
+
+Create a system capable of inspecting animation data, identifying quality problems, explaining why they exist, and eventually helping artists fix them without destroying their work.
+
+Not by replacing animators.
+
+Not by generating animation.
+
+By making animation behavior visible.
+
+---
+
+## Why This Project Exists
+
+Animators can see when a shot feels wrong.
+
+They often cannot immediately explain why.
+
+The spacing looks acceptable.
+
+The curves look clean.
+
+The keys are where they should be.
+
+Yet something still feels off.
+
+The problem is that most animation tools focus on creating motion.
+
+Very few focus on analyzing motion.
+
+Onixey explores what happens when analysis becomes a first-class system.
+
+What if animation quality could be inspected?
+
+What if movement patterns could be measured?
+
+What if common production issues could be detected before they become expensive?
+
+Those are the questions behind this project.
+
+---
+
+## The Vision
+
+The final vision of Onixey is not a collection of Blender operators.
+
+It is an architecture capable of supporting:
+
+* Motion analysis
+* Arc evaluation
+* Spacing inspection
+* Constraint conflict detection
+* Animation diagnostics
+* Production-safe correction systems
+
+Building those systems is a long process.
+
+Before any of them can exist, the foundation must exist first.
+
+That foundation is Iteration 1.
+
+---
+
+## Why Iteration 1 Matters
+
+Most addon projects begin with features.
+
+Onixey began with architecture.
+
+Instead of building analysis tools immediately, Iteration 1 focuses on answering a different question:
+
+**Can a large animation-analysis system be built on a stable foundation from day one?**
+
+That means solving problems most projects ignore until later:
+
+* Compatibility management
+* Safe registration
+* Reload resilience
+* Dependency control
+* Validation systems
+* Module contracts
+* Failure isolation
+
+These systems are not flashy.
+
+But they determine whether future systems remain maintainable or eventually collapse under complexity.
+
+---
+
+## What Exists Today
+
+Iteration 1 is complete.
+
+The repository currently contains:
+
+### core/
+
+The architectural foundation of the project.
+
+Includes:
+
+* Version management
+* Compatibility validation
+* Feature detection
+* API safety wrappers
+* Registration safety
+
+Every module is isolated.
+
+Every dependency is intentional.
+
+Every contract is documented.
+
+### validation/
+
+The validation framework responsible for tracking compliance, module health and architectural integrity.
+
+### docs/
+
+The project's architectural knowledge base.
+
+Contains:
+
+* Engineering rules
+* Module contracts
+* Architectural specifications
+* Design decisions
+
+---
+
+## What Does Not Exist Yet
+
+To be completely transparent:
+
+The following systems are planned but not yet implemented:
+
+* Animation analysis engines
+* Motion diagnostics
+* Arc evaluation
+* Runtime state systems
+* Production datasets
+* UI panels
+* Blender operators
+* Automated correction systems
+
+The architecture exists.
+
+The implementation journey is still ahead.
+
+---
+
+## Engineering Principles
+
+Several principles guide every decision inside Onixey:
+
+* Explicit contracts over assumptions.
+* Reload safety is mandatory.
+* Dependencies flow in one direction.
+* Failure must remain isolated.
+* Architecture must scale before features scale.
+* Future systems should inherit stability rather than reinvent it.
+
+---
+
+## Why Developers May Find This Interesting
+
+Onixey is currently less about features and more about engineering decisions.
+
+It is an experiment in building a large-scale animation analysis framework in public, with architecture, contracts and validation established before complexity arrives.
+
+If you enjoy:
+
+* Blender addon development
+* Technical animation
+* Pipeline architecture
+* Software design
+* Long-term maintainability
+
+you may find the repository worth exploring.
+
+---
+
+## Current Status
+
+Current Stage:
+
+✓ Iteration 1 Complete
+
+✓ Core Foundation Established
+
+✓ Validation Framework Established
+
+✓ Architectural Contracts Defined
+
+✓ Engineering Rules Locked
+
+Next Stage:
+
+→ Runtime Infrastructure
+
+→ Analysis Systems
+
+→ Animation Intelligence Layer
+
+---
+
+## Explore The Repository
+
+Start with:
+
+* CORE_STATUS.md
+* Validation Documentation
+* Architectural Specifications
+* Source Code
+
+The goal of Onixey is not to prove that animation analysis is easy.
+
+The goal is to build the foundation required to make it possible.
